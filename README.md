@@ -1,5 +1,5 @@
 # Mana_Suarez_Garcia
-**COMEDERO AUTOMATICO **
+**COMEDERO AUTOMATICO**
 
 Descripción
 Este proyecto es un sistema de control para un comedero automático que utiliza un servo motor y una interfaz web para alimentarlo de forma remota. 
