@@ -30,14 +30,19 @@ Una vez que el dispositivo esté configurado y conectado a la red Wi-Fi, abre un
 
 Ejemplo de salida en el terminal:
 
-java
-Copiar código
+
 Conectado a Wi-Fi
+
 ('192.168.1.10', '255.255.255.0', '192.168.1.1', '192.168.1.10')
+
 Servidor en ejecución
+
 Conexión desde ('192.168.1.20', 12345)
+
 Solicitud: b'GET /mover HTTP/1.1 ...'
+
 Consideraciones
+
 Asegúrate de que el servo motor esté conectado correctamente y no esté recibiendo más corriente de la que puede soportar.
 El sistema está diseñado para ser controlado desde cualquier navegador web conectado a la misma red Wi-Fi que el dispositivo.
 Mejoras futuras
