@@ -8,7 +8,9 @@ El sistema se conecta a una red Wi-Fi y expone una página web en la que se pued
 
 Componentes
 ESP32/ESP8266 (o cualquier otra placa compatible con MicroPython)
+
 Servo motor
+
 Red Wi-Fi (para controlar el comedero de manera remota)
 
 Descripción del Código
