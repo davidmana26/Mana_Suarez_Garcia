@@ -7,13 +7,15 @@ Este proyecto es un sistema de control para un comedero automático que utiliza 
 El sistema se conecta a una red Wi-Fi y expone una página web en la que se puede controlar el movimiento de un servo motor que activa el comedero.
 
 Componentes
-ESP32/ESP8266 (o cualquier otra placa compatible con MicroPython)
+
+ESP32
 
 Servo motor
 
 Red Wi-Fi (para controlar el comedero de manera remota)
 
 Descripción del Código
+
 Control de Servo Motor: El código utiliza la librería machine de MicroPython para controlar un servo motor conectado al pin GPIO 15. La función mover_servo(angulo) permite mover el servo a un ángulo específico dentro del rango de 0 a 180 grados.
 
 Conexión Wi-Fi: Se establece una conexión Wi-Fi mediante la librería network. El dispositivo se conecta a la red especificada en las variables ssid y password.
@@ -23,9 +25,11 @@ Servidor Web: El código crea un servidor web que se ejecuta en el puerto 80 y p
 Control del Servo desde la Web: Al hacer clic en el botón de la página web, el servidor recibe la solicitud y mueve el servo a una posición de 50 grados durante 2 segundos antes de devolverlo a la posición de 140 grados, simulando el proceso de alimentar.
 
 Ejecución
+
 Una vez que el dispositivo esté configurado y conectado a la red Wi-Fi, abre un navegador web e ingresa la dirección IP del dispositivo (que se muestra en la salida del código en el terminal). La página web tendrá un botón que, al presionarlo, activará el comedero.
 
 Ejemplo de salida en el terminal:
+
 java
 Copiar código
 Conectado a Wi-Fi
