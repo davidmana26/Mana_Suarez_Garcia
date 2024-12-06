@@ -40,6 +40,10 @@ Conexión desde ('192.168.1.20', 12345)
 
 Solicitud: b'GET /mover HTTP/1.1 ...'
 
+**LINK SIMULACIÓN WOKWI**
+
+https://wokwi.com/projects/416532584309852161
+
 Consideraciones
 
 Asegúrate de que el servo motor esté conectado correctamente y no esté recibiendo más corriente de la que puede soportar.
@@ -48,4 +52,9 @@ Mejoras futuras
 Integrar control de velocidad del servo motor.
 Agregar autenticación para controlar el acceso al sistema.
 Añadir soporte para múltiples servidores o dispositivos.
+
+Participantes 
+Mateo García
+Angel David Maná
+Gonzalo Suarez
 
