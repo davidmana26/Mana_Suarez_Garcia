@@ -54,7 +54,10 @@ Agregar autenticación para controlar el acceso al sistema.
 Añadir soporte para múltiples servidores o dispositivos.
 
 Participantes 
+
 Mateo García
+
 Angel David Maná
+
 Gonzalo Suarez
 
